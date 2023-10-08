@@ -1,0 +1,117 @@
+body {
+    background-image: url(bgBMW.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .logo {
+    max-width: 100px;
+    float: left;
+    margin-right: 40px;
+    width: 50px;
+    height: auto;
+    z-index: 3;
+  }
+  
+  .nav-link-active{
+    margin-left: auto;
+  }
+  .nav-link-active2{
+    margin-left: auto;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #a8a7a7;
+    padding: 15px 100px;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: rgb(197, 191, 191);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0s, border-bottom 0s;
+    font-weight: bold;
+    margin-right: 20px;
+    transition: color 0.3s;
+    justify-content: flex-start;
+    z-index: 2;
+  }
+  
+  .navbar a:hover {
+    background-color: #2f17b800;
+    color: rgb(35, 106, 173);
+    border-bottom: 3px solid #0070c0;
+    z-index: 2;
+  }
+  
+  /* ส่วนของ mega menu */
+  .nav-links li:hover .drop-menu,
+  
+  .mega-box .content {
+    padding: 25px 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .mega-box .content .row {
+    width: calc(25% - 30px);
+    line-height: 40px;
+  }
+  
+  .content .row header {
+    
+    margin-top: 0px;
+    color: rgb(190, 189, 189);
+    font-size: 26px;
+    font-weight: 500;
+    font-weight: bold;
+  }
+  
+  .mega-links li {
+    margin-bottom: 3x;
+  }
+  
+  .mega-links li a {
+    text-decoration: none;
+    color: #050505;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .mega-links li a:hover {
+    color: #67b4f0;
+  }
+  
+  .mega-box header {
+    margin-top: 85px;
+    font-size: 26px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .mega-box p {
+    font-size: 14px;
+    color: #666;
+  }
+  .mega-box {
+    position: absolute;
+    left: 0;
+    background-color: rgb(27, 27, 27);
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    top: 90px;
+    z-index: 1;
+  }
+  
+  
